@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+div,p,a,li,ul {
+			padding: 0px;
+			margin: 0px;
+		}
+		body {
+			font-family: "微软雅黑";
+			margin: 0px;
+		}
+		.main {
+			height: 1000px;
+			width: 100%;
+			background: #E1E6F6;
+		}
+		.header {
+			height: 40px;
+			width: 100%;
+			background: #000000;
+		}
+		.header-left {
+			color: #ffffff;
+			font-size: 22px;
+			height: 40px;
+			line-height: 40px;
+			width: 80px;
+			margin: 0px;
+			float: left;
+			margin-right: 400px;
+		}
+		.header ul {
+			list-style: none;
+		}
+		.header ul li a {
+			display: block;
+			float: left;
+			text-decoration: none;
+			width: 70px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			/*margin: 0px 10px;*/
+			color: #red;
+			font-size: 11px;
+		}
+		.header ul li a:hover {
+			background: #666666;
+		}
+		.category {
+			height: 40px;
+			width: 78%;
+			margin: 0px auto;
+			background: #f8E4F4;
+			font-size: 13px;
+		}
+		.category .category_ul {
+			list-style: none;
+			height: 20px;
+			width: 290px
+		}
+		.category .category_ul .category_a {
+			display: block;
+			float: left;
+			text-decoration: none;
+			height: 15px;
+			width: 50px;
+		}
+		.content {
+			height: 960px;
+			width: 78%;
+			background: #eeeeee;
+			margin: 0px auto;
+		}
+		.content .content-list {
+			height: 960px;
+			width: 100%;
+			background: #fffeee;
+		}
+		.content .content-list .good {
+			height: 220px;
+			width: 31%;
+			background: #666666;
+			margin: 7px;
+			float: left;
+		}
+		.content .content-list .good img {
+			height: 220px;
+			width: 100%;
+		}
+		.content .content-list .good ul {
+			list-style: none;
+			margin-top: -110px;
+			margin-left: 0px;
+			display: none;
+			opacity: 0.96;
+			text-align: center;
+			background: #A52A2A;
+		}
+		.content .content-list .good ul li a {
+			text-decoration: none;
+			display: block;
+			height: 30px;
+			width: 100px;
+			background: blueviolet;
+			line-height: 30px;
+			color: #FFFFFF;
+			text-align: center;
+			margin-left: 45px;
+		}
+		
+		.aa {
+			padding-left: 175px;
+		}
+		.bb {
+			text-align: center;
+		}
+		#sub {
+				height: 30px;
+				width: 300px;
+		}
+		.sub1 {
+			border: 1px solid #31B0D5;
+			background: #31B0D5;
+			color: #FFFFFF;
+			height: 30px;
+			width: 255px;
+		}
+		.sub1:hover {
+			border: 1px solid #42C1E6;
+			background: #42C1E6;
+			color: #FFFFFF;
+		}
